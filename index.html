@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المسبحة اونلاين</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- قسم العداد الرئيسي الكبير -->
+        <div class="main-counter-section">
+            <h1>المسبحة اونلاين<br> اللهم هب هذا العمل إلى المرحوم/
+            رمضان أبو المكارم عبد الرسول</h1>
+            <p class="instruction">(اللَّهُمَّ، اغْفِرْ له وَارْحَمْهُ، وَاعْفُ عنْه وَعَافِهِ، وَأَكْرِمْ نُزُلَهُ، وَوَسِّعْ مُدْخَلَهُ، وَاغْسِلْهُ بمَاءٍ وَثَلْجٍ وَبَرَدٍ، وَنَقِّهِ مِنَ الخَطَايَا كما يُنَقَّى الثَّوْبُ الأبْيَضُ مِنَ الدَّنَسِ، وَأَبْدِلْهُ دَارًا خَيْرًا مِن دَارِهِ، وَأَهْلًا خَيْرًا مِن أَهْلِهِ، وَزَوْجًا خَيْرًا مِن زَوْجِهِ، وَقِهِ فِتْنَةَ القَبْرِ وَعَذَابَ النَّارِ)</p>
+            <div id="mainDisplay" class="main-display">0</div>
+            <button id="mainIncrementBtn" class="main-button">➕</button>
+            
+            <!-- زر تصفير الكل -->
+            <div style="margin-top: 20px;">
+                <button id="resetAllBtn" class="reset-all-button">🔄 تصفير الكل</button>
+            </div>
+        </div>
+
+        <!-- قسم الأذكار والعدادات -->
+        <div class="azkar-section">
+            <p class="instruction">إضغط على أي من العدادات وأكمل بإستخدام لوحة المفاتيح</p>
+            <div id="countersList" class="counters-grid">
+                <!-- سيتم إضافة الأذكار هنا تلقائياً بواسطة جافاسكريبت -->
+            </div>
+        </div>
+
+        <!-- دعاء أسفل الصفحة -->
+        <div class="footer-dua">
+            <p>"اللهم اغفر لـ رمضان أبو المكارم وارحمه، وعافه واعف عنه، وأكرم نزله، ووسع مدخله، واغسله بالماء والثلج والبرد، ونقّه من الخطايا كما يُنقى الثوب الأبيض من الدنس.
+            "
+            <br>
+
+"اللهم إن رمضان أبو المكارم في ذمتك وحبل جوارك، فقهِ فتنة القبر وعذاب النار، وأنت أهل الوفاء والحق، فاغفر له وارحمه، إنك أنت الغفور الرحيم."</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
